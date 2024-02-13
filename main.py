@@ -46,4 +46,4 @@ image_interface = gr.Interface(
 )
 
 if __name__ == '__main__':
-    image_interface.launch()
+    image_interface.launch(share=True)
